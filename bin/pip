@@ -1,0 +1,8 @@
+#!/Users/shogonakagawa/10_Profile/10_Program_個人用プログラミング学習関連/プログラミング学習用/プログラム言語別/python/20230302_コサイン類似度/flask/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
